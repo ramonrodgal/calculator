@@ -3,6 +3,7 @@ import { CalculatorContext } from "../contexts/CalculatorContext";
 
 import NumberButton from "./NumberButton";
 import OperatorButton from "./OperatorButton";
+import ClearButton from "./ClearButton";
 
 export default function Calculator() {
   const { input } = useContext(CalculatorContext);
@@ -32,6 +33,7 @@ export default function Calculator() {
           <OperatorButton value="-" />
         </div>
         <div>
+          <ClearButton />
           <NumberButton value="0" />
           <OperatorButton value="+" />
         </div>

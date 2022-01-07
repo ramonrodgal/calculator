@@ -9,8 +9,11 @@ export default function EqualButton() {
     <button
       onClick={(e) => {
         e.preventDefault();
-        setMemory(input);
-        setInput(calculate(input));
+
+        if (input.match(/[+\-*/]/g)) {
+          setMemory(input);
+          setInput(calculate(input));
+        }
       }}
     >
       =

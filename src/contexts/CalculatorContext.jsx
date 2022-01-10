@@ -7,7 +7,7 @@ export function CalculatorProvider({ children }) {
   const [memory, setMemory] = useState("");
 
   const calculate = (value) => {
-    return eval(value);
+    return eval(value).toString();
   };
 
   return (

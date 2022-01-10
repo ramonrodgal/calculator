@@ -1,11 +1,15 @@
 import React from "react";
+
+import Header from "./components/Header";
 import Calculator from "./components/Calculator";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline"> Hello world! </h1>
+      <Header />
       <Calculator />
+      <Footer />
     </>
   );
 }

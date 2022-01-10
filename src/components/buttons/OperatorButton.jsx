@@ -12,9 +12,9 @@ export default function OperatorButton({ value }) {
         e.preventDefault();
         if (input) {
           setInput((prevInput) => {
-            if (prevInput.match(/[+\-*/]/g)) {
-              setMemory(prevInput);
-              return calculate(prevInput) + e.target.innerText;
+            if (input.match(/[+\-*/]/g)) {
+              setMemory(input);
+              return calculate(input) + e.target.innerText;
             } else {
               return prevInput + e.target.innerText;
             }

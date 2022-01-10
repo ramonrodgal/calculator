@@ -1,6 +1,6 @@
 # Tiny Calculator
 
-Really simple calculator build with React and styled with Tailwind CSS
+Really simple calculator build with [React](https://reactjs.org/) and styled with [Tailwind CSS](https://tailwindcss.com/)
 
 ![image](https://drive.google.com/uc?export=view&id=1GrD0LrL3R3hj5G_SS_81NMxmbF3xTU6Z)
 

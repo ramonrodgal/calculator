@@ -10,7 +10,7 @@ export default function OperatorButton({ value }) {
       className="basis-1/4 bg-cyan-700 m-2 p-2 rounded text-xl hover:bg-cyan-800"
       onClick={(e) => {
         e.preventDefault();
-        if (input) {
+        if (input && !input.endsWith(".")) {
           setInput((prevInput) => {
             if (input.match(/[+\-*/]/g)) {
               setMemory(input);

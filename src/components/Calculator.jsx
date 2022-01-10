@@ -13,7 +13,7 @@ export default function Calculator() {
     <div className=" bg-gray-500 box-border m-auto mt-12 mb-12 p-6 border-4 max-w-md rounded-xl">
       <div className="flex flex-col">
         <p className="m-2 p-1 text-right text-sm bg-cyan-100">
-          {memory ? memory : "-"}
+          {memory ? memory : "Memory"}
         </p>
         <p className="m-2 p-1 text-right text-4xl bg-cyan-100">
           {input ? input : "0"}
